@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 04 Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="form.htm">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="autio.html">Autio & Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Practice Form</h1>
+            <form action="">
+                <div class="form_row">
+                    <div class="name">
+                        <label for="name">First Name :
+                            <input type="text" placeholder="Enter your First Name">
+                        </label>
+                    </div>
+                    <div class="name">
+                        <label for="name">Last Name :
+                            <input type="text" placeholder="Enter your Last Name">                            
+                        </label>
+                    </div>
+                </div>
+                <label for="name">Father's Name :
+                    <input type="text" placeholder="Enter your Father's Name">
+                </label>
+                <label for="birthday">Birthday :
+                    <input type="date" id="birthday" name="birthday">
+                </label>
+                
+                <label for="email">Your Email :
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </label>
+                <label for="password">Your Password :
+                    <input type="password" name="password" id="password" placeholder="Enter your Password">
+                </label>
+                <label for="country">Country : 
+                    <select name="country" id="country">
+                        <option>Select an option</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="usa">USA</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                </label>
+                <label for="email">Select Gender :
+                    <input type="radio" name="gender" id="">Male
+                    <input type="radio" name="gender" id="">Female
+                </label>
+                <label for="email">Your  hobbies :
+                    <input type="checkbox" name="hobi" id=""> Writing
+                    <input type="checkbox" name="hobi" id=""> Learning
+                    <input type="checkbox" name="hobi" id=""> Dance
+                    <input type="checkbox" name="hobi" id=""> Acting
+                    <input type="checkbox" name="hobi" id=""> Drawing
+                    <input type="checkbox" name="hobi" id=""> Photography
+                </label>
+                <div class="form_row">
+                    <div class="name">
+                        <input type="reset" value="Reset">
+                    </div>
+                    <div class="name">
+                        <input type="submit" value="Save">
+                    </div>
+                </div>
+                <!-- <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" id="">Male
+                    <input type="radio" name="gender" id="">Female
+                </fieldset> -->
+            </form>
+        </section>
+        <section>
+            <table>
+                <caption>Benificery List</caption>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Ben Name</th>
+                        <th>Ben Address</th>
+                        <th>Ben Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Abu Tahir</td>
+                        <td>Temarpur</td>
+                        <td>+91 9593809382</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Minhaz Hussain</td>
+                        <td>Temarpur</td>
+                        <td>+91 9593809382</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sunehera Parvin</td>
+                        <td>Temarpur</td>
+                        <td>+91 9593809382</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Total Benificery : 3</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </section>
+        <section>
+            <h1>Autio & Video</h1>
+
+            <label for="songs"> Your Fevarite songs </label>
+            <audio controls src="Kabhi Shaam Dhale(PagalWorld.com.sb).mp3"></audio>
+
+            <label for="songs"> Your Fevarite Video </label>
+            <video controls src="11978899_360_640_60fps.mp4" ></video>
+        </section>
+    </main>
+    <footer>
+        <h3>2024 &#169; All rights reserved.</h3>
+    </footer>
+</body>
+</html>
